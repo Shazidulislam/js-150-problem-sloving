@@ -89,11 +89,74 @@ console.log(12*12)
 
 //Print the type of a variable holding the value true
 
-var a = true
-console.log(typeof(a))
+// !!var a = true
+// !!console.log(typeof(a))
 // question 9 CREATE A VARIABLE holding your age and log whether it's greater than 18
 
-const age = 20
+// !!const age = 20
+// !!
+// !!if(age >18) console.log(true)
+// !!else console.log(false)
 
-if(age >18) console.log(true)
-    else console.log(false)
+// question 10. Log the result of 100 /0 and observe the output
+
+// !!console.log(100/0)
+
+
+// question 11. Declare a variable using let and log the value
+
+// !!let name = "Hello World"
+// !!console.log(name)
+// !!name = "Hello Bangladesh"
+// !!console.log(name)
+
+// question 12. Create a constant to store the value of PI and log it
+
+
+const pi = Math.PI
+// !!console.log(pi)
+
+// question 13. Reassign a value to a variable declared with let and log the result 
+
+let b =12
+b= 32
+//!!  console.log(b)
+
+
+// 14 .  Check the type of null and log it.
+
+//!!console.log(typeof(null)) // null er type is awalays object
+//!console.log(null===null) true
+
+//15 . Create a vaiable with a number as a string {e.g. "25"} and log its type
+
+const number = "24"
+console.log(typeof(number))
+
+//16. create 3  variable of type string , number , and boolean, and log their values
+
+//!! let aa = "string" , bb = 12 , cc = true
+
+//!! console.log(aa , bb , cc )
+
+// 18. Declare a variable without assigning a value log its type
+
+let noAssign 
+// !!console.log(noAssign)
+
+//19.Create a variable with undefined and log its type
+
+//!! console.log(typeof(noAssign)) // undefine
+//!! console.log(typeof(NaN)) // number
+
+// 20 Use const to create an array. Try reassigning the array and obserb the error
+
+//!! 
+
+const array = [1 , 2 , 3, 4 ,5]
+// array = 23
+// !!console.log(array)
+
+// ?? Loops(10 question)
+//21. 
+
