@@ -158,5 +158,40 @@ const array = [1 , 2 , 3, 4 ,5]
 // !!console.log(array)
 
 // ?? Loops(10 question)
-//21. 
+//21. Write a for loop to print numbers from 1 to 50
+let sum = 0
+for(let i = 1 ;i <= 50; i++){
+    //  sum = sum + i
+    // console.log(i++)
+}
+
+// console.log(sum , "from for loop")
+
+//22 . Use a while loop to sum the numbers from 1 to 10
+
+let a  = 1;
+
+while(a<10){
+    sum = sum + a
+    a++;
+}
+
+// console.log(sum , "from while loop")
+
+//23 . Create a for ... of loop to log each character of the string "javascript"
+
+let str = "javascript";
+for (let char of str){
+    // console.log(char)
+}
+
+
+//24. Write a for loop that skips even numbers between 1 and 20.
+
+for(let i =1 ; i  <=20 ; i++ ){
+   if( i%2 === 1){
+    // !!console.log(i)
+   }
+}
+
 
