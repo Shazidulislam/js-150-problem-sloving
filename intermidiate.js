@@ -56,6 +56,9 @@ const arr =[1,2,3,4 ,5];
 
 const orginalArray = [1,2,3,4,5];
 const reverceArray = [];
+console.log(orginalArray.unshift(9))
+
+
 
 // using for loop
 
@@ -68,15 +71,33 @@ const reverceArray = [];
 //!! use for of
 
 for(let arr of orginalArray){
+    console.log(arr)
     reverceArray.unshift(arr)
 }
 console.log(reverceArray , orginalArray.length)
 
-// 29. Write a while loop that logs numbers from 1 to 100 divisible by 5
 
-//30. Use a for in loop to iterate over an object and log its keys.
+
+// 29. Write a while loop that logs numbers from 1 to 100 divisible by 5
+let num = 1;
+while(num<=100){
+    if(num%5===0)console.log(num)
+    num++;
+}
+//30. Use a for......... in loop to iterate over an object and log its keys.
+
+let object = {
+    name:"shazid",
+    age:20,
+    roll:40,
+}
+
+for( let keys in object){
+  console.log(keys)
+}
 
 
 //Arrays(10 Question)
 
-// 31.
+
+

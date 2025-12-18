@@ -1,4 +1,4 @@
-// // For inputArray = [1, 2, 1], elementToReplace = 1 and subtractionElem = 3, the output should be arrayReplace(inputArray, elementToReplace, substrationElem) = [3, 2, 3].
+// For inputArray = [1, 2, 1], elementToReplace = 1 and subtractionElem = 3, the output should be arrayReplace(inputArray, elementToReplace, substrationElem) = [3, 2, 3].
 
 // const arrayreplace = (inputArray, elementToReplace, substrationElem) => {
 //   const result = inputArray.map((num) =>
@@ -7,43 +7,43 @@
 //   console.log(result);
 // };
 
-// // !!arrayreplace([1, 2, 1, 4, 5, 6, 1, 9, 1], 1, 4);
+// !!arrayreplace([1, 2, 1, 4, 5, 6, 1, 9, 1], 1, 4);
 
-// // Day 2
+/// Day 2
 
-// // Write a function that returns the sum of two numbers.
-// // Write a function that returns the sum of all numbers regardless of # of params.
+// Write a function that returns the sum of two numbers.
+/// Write a function that returns the sum of all numbers regardless of # of params.
 
-// // Example
+// Example
 
-// // For param1 = 1 and param2 = 2, the output should be add(param1, param2) = 3.
+// For param1 = 1 and param2 = 2, the output should be add(param1, param2) = 3.
 
-// // Input/Output
+// Input/Output
 
-// // Hints
+// Hints
 
-// // [time limit] 400ms (js)
-// // [input] integer param1
+// [time limit] 400ms (js)
+/// [input] integer param1
 
-// // Arithmetic Operators
-// // Rest Operators
-// // forEach()
+// Arithmetic Operators
+/// Rest Operators
+/// forEach()
 
-// // Guaranteed constraints:
+// Guaranteed constraints:
 
-// // Guaranteed constraints:
+// Guaranteed constraints:
 
-// // -100 ≤ param1 ≤ 1000.
+// -100 ≤ param1 ≤ 1000.
 
-// // -100 ≤ param2 ≤ 1000.
+// -100 ≤ param2 ≤ 1000.
 
-// // [input] integer
+// [input] integer
 
-// // [input] integer param2
+// [input] integer param2
 
-// // The sum of the two inputs
+// The sum of the two inputs
 
-// const addTwoNumbers =(a ,b)=>{
+//  const addTwoNumbers =(a ,b)=>{
 //     const result = a+b
 //     console.log(result)
 // }
@@ -72,7 +72,7 @@ console.log(newDate.getFullYear())
 
 // console.log(frist +" "+ last)
 
-// question 5 track the value of a variable by logging it before and after updating
+// !!question 5 track the value of a variable by logging it before and after updating
 
 // let a = 12; // if you use const you will found an error 
 
@@ -80,11 +80,11 @@ console.log(newDate.getFullYear())
 // a = 32;
 // console.log(a)
 
-// question 6 use console.error() to simulate an error message
+//!! question 6 use console.error() to simulate an error message
 
 // console.error("Something went wrong")
 
-// question 7 the square of the number 12 to this console.
+//!! question 7 the square of the number 12 to this console.
 console.log(12*12) 
 
 //Print the type of a variable holding the value true
@@ -164,7 +164,9 @@ for(let i = 1 ;i <= 50; i++){
     //  sum = sum + i
     // console.log(i++)
 }
+for(i = 1 ; i <= 50;i++){
 
+}
 // console.log(sum , "from for loop")
 
 //22 . Use a while loop to sum the numbers from 1 to 10
@@ -172,7 +174,7 @@ for(let i = 1 ;i <= 50; i++){
 let a  = 1;
 
 while(a<10){
-    sum = sum + a
+    sum = sum + a;
     a++;
 }
 
@@ -188,6 +190,12 @@ for (let char of str){
 
 //24. Write a for loop that skips even numbers between 1 and 20.
 
+for(let i = 1; i <=20 ; i++){
+    if(i%2===1){
+        // console.log(i)
+    }
+}
+
 for(let i =1 ; i  <=20 ; i++ ){
    if( i%2 === 1){
     // !!console.log(i)
@@ -195,3 +203,16 @@ for(let i =1 ; i  <=20 ; i++ ){
 }
 
 
+// 28 use a for loop to reverse an array [1,2,3,4]
+const orginalArray = [1,2,3,4,5,6]
+const reverceArray = []
+
+// for(arr of orginalArray){
+//   reverceArray.unshift(arr)
+// }
+// console.log(reverceArray)
+
+for(let i = orginalArray.length -1 ; i>=0 ; i--){
+    reverceArray.push(orginalArray[i])
+}
+console.log(reverceArray)
